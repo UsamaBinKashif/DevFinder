@@ -8,13 +8,12 @@ input {
   font-size: 2.2rem;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 2rem;
-   
+    padding: 0 5rem;   
     
   }
   .main__heading {
@@ -27,16 +26,24 @@ input {
 
   .main__IU {
     flex-direction: column;
+    padding: 0 0.625rem;
   }
   .main__IU--col {
     gap: 0.625rem;
     margin-top: 1rem;
+
   }
   .main__IU--col > p {
     gap: 0.625rem;
     margin-top: 1rem;
   }
 }
+@media (max-width:550px) {
+  .main{
+    padding: 0;
+  }
+}
+
 
 /* // const getUser = async () => {
   //   const profile = await fetch(`https://api.github.com/users/usamabinkashif`);
