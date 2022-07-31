@@ -1,0 +1,45 @@
+
+input {
+  outline: none;
+  border: none;
+  background: none;
+}
+.icon {
+  font-size: 2.2rem;
+}
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+   
+    
+  }
+  .main__heading {
+    justify-content: center;
+    align-items: center;
+  }
+  .main__details {
+    gap: 2rem;
+  }
+
+  .main__IU {
+    flex-direction: column;
+  }
+  .main__IU--col {
+    gap: 0.625rem;
+    margin-top: 1rem;
+  }
+  .main__IU--col > p {
+    gap: 0.625rem;
+    margin-top: 1rem;
+  }
+}
+
+/* // const getUser = async () => {
+  //   const profile = await fetch(`https://api.github.com/users/usamabinkashif`);
+  //   const profileJson = await profile.json();
+  //   setUser(profileJson);
+  // }; */
